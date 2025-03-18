@@ -38,14 +38,17 @@
     </head>
     <body>
         <div class="app">
-            <h1>Apache Cordova</h1>
+            <h1>Kyle's AI chat bot</h1>
             <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-                <p class="event received">Test add btn</p>
+                <p class="event listening">Please choose the AI you want</p>
             </div>
             <br><br>
-            <button id="btn1">Press me</button>
+            <div class="btn-container">
+                <button class="ai-btn chat-gpt-button"><img src="img/ChatGPT-logo.png"/></button>
+                <button class="ai-btn gemini-button"><img src="img/Gemini-logo.png"/></button>
+                <button class="ai-btn llama-button"><img src="img/Llama-logo.png"/></button>
+                <button class="ai-btn deepseek-button"><img src="img/DeepSeek-logo.png"/></button>
+            </div>
         </div>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>

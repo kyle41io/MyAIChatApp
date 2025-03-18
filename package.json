@@ -14,12 +14,26 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^13.0.0",
-    "cordova-ios": "^7.1.1"
+    "cordova-ios": "^7.1.1",
+    "cordova-plugin-camera": "^8.0.0",
+    "cordova-plugin-device": "^3.0.0",
+    "cordova-plugin-file": "^8.1.3",
+    "cordova-plugin-http": "^1.2.0"
   },
   "cordova": {
     "platforms": [
-      "android",
-      "ios"
-    ]
+      "ios",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-device": {},
+      "cordova-plugin-camera": {
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      },
+      "cordova-plugin-http": {}
+    }
+  },
+  "dependencies": {
+    "openai": "^4.86.1"
   }
 }

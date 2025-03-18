@@ -108,3 +108,106 @@ h1 {
         background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
     }
 }
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.ai-btn {
+    display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    width: 100px;
+}
+.chat-gpt-button {
+    background-color: #10a37f;
+    width: 80%;
+}
+.gemini-button {
+    background-color: #ab46bd;
+    width: 80%;
+}
+.llama-button {
+    width: 80%;
+    background-color: #1a46b3;
+}
+.deepseek-button {
+    width: 80%;
+    background-color: #2b2198;
+}
+.chat-gpt-button:hover {
+    background-color: #0e8a6b;
+}
+.gemini-button:hover {
+    background-color: #671473;
+}
+.llama-button:hover {
+    background-color: #172f77;
+}
+.deepseek-button:hover {
+    background-color: #150f66;
+}
+.chat-gpt-button i {
+    margin-right: 10px;
+}
+
+#chat-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#chat-box {
+    height: 300px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#chat-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#send-btn {
+    width: 25%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
+
+.user {
+    color: blue;
+    text-align: right;
+    margin: 5px 0;
+}
+
+.deepseek {
+    color: green;
+    text-align: left;
+    margin: 5px 0;
+}

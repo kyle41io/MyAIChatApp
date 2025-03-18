@@ -33,4 +33,7 @@ function eventHandling() {
     btn1.addEventListener('click', function() {
         btn1.style.opacity = ".3";
     });
+    document.querySelector('.deepseek-button').addEventListener('click', function() {
+        window.location.href = 'deepseek-chat.html';
+    });
 }

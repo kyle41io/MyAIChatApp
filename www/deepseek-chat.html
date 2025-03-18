@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <title>DeepSeek Chat</title>
+</head>
+<body>
+    <div class="app">
+        <h1>DeepSeek Chat</h1>
+        <div id="chat-container">
+            <div id="chat-box"></div>
+            <input type="text" id="chat-input" placeholder="Nhập tin nhắn của bạn...">
+            <button id="send-btn">Gửi</button>
+        </div>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/deepseek-chat.js"></script>
+</body>
+</html>
